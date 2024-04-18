@@ -1,7 +1,14 @@
+div[class^="col"]{
+    border:4px solid black;
+    min-height: 275px;
+}
+
 #imgp{
-    width: 230px !important;
+    width: 160px !important;
 }
 
 #words1{
-    position: ;
+    padding-bottom: 80px;
+    background-color: transparent !important;
 }
+
