@@ -1,14 +1,48 @@
-div[class^="col"]{
-    border:4px solid black;
+/* div[class^="col"]{
+    border: 4px solid black;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
     min-height: 275px;
-}
+} */
 
-#imgp{
+#imga{
     width: 160px !important;
 }
 
-#words1{
+#wordsa{
     padding-bottom: 80px;
     background-color: transparent !important;
 }
 
+/* #imgb {
+    display: block;
+    padding-left: 70px;
+    
+  }
+
+  #imgc {
+    display: block;
+    padding-right: 70px;
+  }
+
+  #imgd {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #imge {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+
+  .photoGallery .col-6 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .img-fluid {
+    width: 100%!important;
+    height: 100%!important;
+  }
