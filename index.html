@@ -46,21 +46,37 @@
         </div>
       </div>
   </nav>
-    
+
+  
+ <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-2">
+            <img class="img-fluid" id="imgb" src="image 4.png" alt="Computer man" >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- MODAL BOTTOM -->
 
     <hr>
 
     <div id="row2" class="row">
     
-      <div class="col-2">
+      <div class="col-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
           <img class="img-fluid" id="imgb" src="image 4.png" alt="Computer man" >
     </div>
     
       <div class="col-8 photoGallery">
         <div class="row">
-            <div class="col-6">
+            <div class="col-6 card1">
               
-              <img class="img-fluid" id="imgc" src="giphy (4).gif" alt="Computer man" >
+              <div class="cardImg"></div>
              
             </div>
             <div class="col-6">
@@ -77,7 +93,7 @@
         </div>
     </div>
 
-    <div class="col-2">
+    <div class="col-2"  data-bs-toggle="modal" data-bs-target="#exampleModal">
       <img class="img-fluid" id="imgb" src="image 5.png" alt="Computer man" >
   </div>
 
