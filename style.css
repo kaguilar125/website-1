@@ -26,28 +26,22 @@ body {
 }
 
 
-/* #imgb {
-    display: block;
-    padding-left: 70px;
+ #imgb {
+    
     
   }
 
   #imgc {
-    display: block;
-    padding-right: 70px;
+    
   }
 
   #imgd {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    
   }
 
   #imge {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  } */
+    
+  } 
 
   .photoGallery .col-6 {
     padding: 0;
@@ -68,42 +62,6 @@ body {
     height: 100%!important;
   }
 
-  /* button {
-    position: relative;
-    background-color: rgb(230, 34, 77);
-    border-radius: 5px;
-    box-shadow: rgb(121, 18, 55) 0px 4px 0px 0px;
-    padding: 15px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    box-sizing: border-box;
-    width: 154px;
-    height: 49px;
-    color: #fff;
-    border: none;
-    font-size: 20px;
-    transition: all 0.3s ease-in-out;
-    z-index: 1;
-    overflow: hidden;
-  }
-  
-  button::before {
-    content: "";
-    background-color: rgb(248, 50, 93);
-    width: 0;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: width 700ms ease-in-out;
-    display: inline-block;
-  }
-  
-  button:hover::before {
-    width: 100%;
-  } */
-
   .container-fluid .btn {
     position: absolute;
     margin-top: 355px;
@@ -121,31 +79,4 @@ body {
     background-color: black;
   }
 
-  .card1 {
-    margin: auto;
-    width: 500px;
-    height: 500px;
-    border: 1px solid red;
-    overflow: hidden;
-  }
-
-  .card1 .cardImg {
-    margin: auto;
-    width: 500px;
-    height: 500px;
-    background: url("giphy\ \(4\).gif");
-    background-repeat: no-repeat;
-    background-size: contain;
-    /* transition: all 2000ms ease-in-out; */
-    animation: zoom 40s linear infinite;
-  }
-
-  .card1:hover .cardImg{
-    transform: scale(2.);
-  }
-
-  @keyframes zoom {
-    10% {
-      transform: scalr(.1);
-    }
-  }
+  
